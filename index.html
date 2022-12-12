@@ -3,51 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Evelyn Campos CV</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <title>Evelyn Campos CV</title>
 </head>
 <body>
-    <main class="resume-contents">
-        <section class="left-section">
-            <section class="left-section-content">
-                <div class="profile">
-                    <img class="profile-image" src="assets/perfil.github.jfif" alt="Profile image">
-                    <p class="nome">Evelyn Campos</p>
-                    <p class="profession">Engenheiro de Software</p>
+    <header class="header-container">
+        <div class="header">
+            <div class="checkbox-container">
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" id="toggle">
+                    <label class="checkbox" for="toggle">
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                    </label>
+                    <div class="menu"></div>
+                    <nav class="menu-items">
+                        <ul>
+                            <li>
+                                <a href="a">Home</a>
+                            </li>
+                            <li>
+                                <a href="a">Sobre</a>
+                            </li>
+                            <li>
+                                <a href="a">Projetos</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                <div class="contat-info">
-                    <p class="left-title">Contato</p>
-                    <ul>
-                        <li><i classe="fa fa-phone"></i>+55 11 99964-3880</li>
-                        <li><i classe="fa fa-envelope"></i>evelyn.mayrac@gmail.com</li>
-                        <li><i classe="fa fa-github"></i>evelynmcampos</li>
-                    </ul>
+            </div>
+            <h1>Evelyn Campos</h1>
+            <h2>Engenheiro de Software</h2>
+            <div class="social-media">
+                <a href="a">Github</a>
+                <a href="a">Linkedln</a>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="card-container">
+            <div class="card">
+                <div class="card-wrapper">
+                    <h2>Projeto 1</h2>
+                    <p>Vem ver!</p>
                 </div>
-                <div class="skills">
-                    <p class="left-title">Skills</p>
-                    <ul>
-                        <li><p>HTML, CSS, Git , Github</p></li>
-                        <li><p>JavaScript e ReactJS</p></li>
-                    </ul>
-                </div>
-            </section>
-            </section>
-            <section class="right-section">
-                <div class="right-section-contents">
-                    <section class="about gap">
-                        <div class="right-title">Sobre Mim</div>
-                        <p class="about-me-contents">
-                            Olá , eu sou a Evelyn Campos<br>
-                            <br> Eu estudo JavaScript e ReactJS
-                            <br> Estou cursando Analise e Desenvolvimento de Sistemas
-                            <br> Meu foco atualmente é trabalhar com Front-end e Back-end 
-                        </p>
-                    </section>
-                </div>
-            </section>
+            </div>
+            <div class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi impedit optio neque perferendis ipsam. 
+                Placeat ab facilis excepturi odio quas accusamus, maiores temporibus ratione quae. In commodi architecto ut veniam.
+            </div>
+
+        </div>
     </main>
-    <script src="main.js"></script>
+    <footer class="footer">  
+    </footer>
 </body>
 </html>
